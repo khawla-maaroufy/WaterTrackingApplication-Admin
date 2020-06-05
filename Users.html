@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/water.css">
+    </head>
+    <body id="Users">
+        <div class="position bg">
+            <header>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="Users.html">Users</a></li>
+                        <li><a href="request.html">Requests</a></li>
+                        <li><a href="Notifications.html">Notifications</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="recherche"> <!--recherche par user ou par adresse-->
+                <input class="textfield" type="text">
+                <input class="Search" type="submit" value="search">
+            </div>
+            <div class="listUsers">
+                <table class="users">
+                    <tr>
+                      <th>Name</th>
+                      <th>Adress</th>
+                      <th>Actions</th>
+                    </tr>
+                    <tr>
+                      <td>User1</td>
+                      <td>FSEG</td>
+                      <td> <a class="btn-tb" href="showUser.html">Show</a> <a class="btn-tb" href="#">Update</a> <a class="btn-tb" href="#">Delete</a> </td>
+                    </tr>
+                    <tr>
+                      <td>User2</td>
+                      <td>FST</td>
+                      <td> <a class="btn-tb" href="#">Show</a> <a class="btn-tb" href="#">Update</a> <a class="btn-tb" href="#">Delete</a> </td>
+                    </tr>
+                    <tr>
+                        <td>User3</td>
+                        <td>FDT</td>
+                        <td> <a class="btn-tb" href="#">Show</a> <a class="btn-tb" href="#">Update</a> <a class="btn-tb" href="#">Delete</a> </td>
+                      </tr>
+                      <tr>
+                        <td>User4</td>
+                        <td>INIT</td>
+                        <td> <a class="btn-tb" href="#">Show</a> <a class="btn-tb" href="#">Update</a> <a class="btn-tb" href="#">Delete</a> </td>
+                      </tr> <!--grand max 4 utilisateurs, le reste dans recherche-->
+                </table>
+                <a href="Add-Update.html" class="add"> + </a> 
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,249 @@
+.bg {
+    background-image: url(../images/Capture1.PNG);
+    background-repeat: no-repeat;
+}
+.position {
+    position: absolute;
+    right:460px ;
+    top: 20px;
+    width: 400px; 
+    height: 600px;
+}
+.logo {
+    height: 70px;
+    width: 120px;
+    margin: 130px 70px 50px 130px  ;
+}
+.inputs {
+    position: absolute;
+    right:50px;
+    left: 50px;
+    width:200px;
+    top: 250px;
+    height: 250px;
+    padding: 50px;
+}
+.textInput {
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: rgb(5, 104, 159) 1px solid;
+color: rgb(5, 104, 159);
+background-color: transparent;
+margin-bottom: 20px;
+height: 30px;
+}
+.textInput:hover {
+    border: 0px;
+    border-radius: 25px;
+    background-color:#DCDCDC;
+}
+.submitInput {
+    background-color: transparent ;
+    border: rgb(5, 104, 159) 2px solid ;
+    color: rgb(5, 104, 159);
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+}
+.submitInput:hover {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    border-radius: 25px;
+}
+.link {
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.titles {
+    color: rgb(5, 104, 159);
+    text-align: center;
+    font-weight: bold;
+} 
+.border {
+    border: 1px solid rgb(5, 104, 159);
+    background-color:rgba(38, 115, 156, 0.404);
+
+}
+
+.nav {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 7px 7px lightblue;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    float: left;
+    width: 90px; 
+}
+header li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.titlePlace {
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.courbe {
+    border : 1px solid rgb(5, 104, 159);
+    margin-left: 70px;
+    height: 250px;
+    width: 275px;
+    background-image: url(../images/courbe.png);
+}
+.historyBtn {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    border:none ;
+    border-radius: 5px;
+    margin: 15px 140px;
+    padding: 7px 12px;
+}
+.historyBtn:hover {
+    background-color: rgba(20, 116, 167, 0.664);
+    box-shadow: 0px 7px 7px lightblue ;
+}
+.date {
+    width: 45px;
+    margin-left: 170px;
+}
+.recherche {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.textfield {
+    width: 100px;
+    height : 18px ;
+    margin-left: 70px;
+    margin-bottom: 10px;  
+    border: 2px solid rgb(5, 104, 159); 
+    background-color: white;
+    color: rgb(5, 104, 159);
+}
+.Search { 
+    background-color:rgb(5, 104, 159);
+    color: white;
+    position: absolute;
+    padding: 2.25px 5px;
+    border : 2px solid rgb(5, 104, 159) ; 
+}
+.Search:hover {
+    background-color: rgba(20, 116, 167, 0.664);
+    box-shadow: 0px 7px 7px rgba(104, 130, 139, 0.719);
+}
+.listUsers {
+position: absolute;
+min-height: auto;
+width: 350px;
+top: 250px;
+left: 25px;
+}
+.users {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bold;
+}
+.users td, .users th {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.users  tr {
+    background-color: rgba(38, 115, 156, 0.404);
+}
+.users tr:hover {
+    background-color: rgba(20, 116, 167, 0.664);
+}
+  .users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(20, 116, 167, 0.664);
+    color: white;
+  }
+  .add {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 140px;
+}
+.add:hover {
+    box-shadow: 7px 7px 7px rgba(20, 116, 167, 0.664);
+}
+.btn-tb {
+    background-color: rgb(5, 104, 159);
+    color: white;     
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-tb:hover {
+    box-shadow: 7px 7px 7px #dddddd;
+}
+.borderUser {
+  position: absolute; 
+  top: 150px;
+  width: 250px;
+  height: 350px; 
+  left: 40px;
+  padding-left: 50px;
+}
+.box {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(5, 104, 159);
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    padding: 30px;
+    height: 40px;
+    margin-top: 30px;
+}
+.box:hover {
+    box-shadow: 0px 7px 7px rgba(104, 130, 139, 0.719);
+}
+.pos-right {
+    margin-left: 100px;
+}
+p {
+    font-weight: bolder;
+    font-size: 20px;
+   margin: 20px 80px;
+    color: rgb(5, 104, 159);
+}
+.adresse {
+    text-decoration: none;
+    color: rgb(5, 104, 159);
+    margin-right: 120px;
+    float: right;
+    width: 50px;
+}
+.claim {
+    position: absolute;
+    right:50px;
+    left: 50px;
+    width:270px;
+    top: 100px;
+    height: 420px;
+    padding: 50px 20px;
+    color: rgb(60, 69, 75);
+
+}
